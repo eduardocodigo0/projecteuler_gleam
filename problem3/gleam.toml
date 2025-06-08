@@ -1,4 +1,4 @@
-name = "problem2"
+name = "problem3"
 version = "1.0.0"
 
 # Fill out these fields if you intend to generate HTML documentation or publish
@@ -14,7 +14,9 @@ version = "1.0.0"
 
 [dependencies]
 gleam_stdlib = ">= 0.44.0 and < 2.0.0"
+gleam_erlang = ">= 0.34.0 and < 1.0.0"
+gleam_otp = ">= 0.16.1 and < 1.0.0"
+gleam_community_maths = ">= 2.0.0 and < 3.0.0"
 
 [dev-dependencies]
 gleeunit = ">= 1.0.0 and < 2.0.0"
-gleescript = ">= 1.5.1 and < 2.0.0"
